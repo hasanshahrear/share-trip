@@ -11,6 +11,11 @@
     flex-direction: column;
     align-items: center;
 }
+.svg-container svg{
+    height:32px;
+    background: #fff;
+    z-index: 9;
+}
 .svg-container::before,
 .svg-container::after {
     content: '';
@@ -20,10 +25,10 @@
     border-radius: 1px;
 }
 .svg-container::before {
-    height: 30%;
+    height: 100%;
     top: 0;
 }
 .svg-container::after {
-    height: 30%;
+    height: 100%;
     bottom: 0;
 }
